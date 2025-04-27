@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ProNext - Proje ve Yarışma Platformu</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+  />
+</head>
+
+<body>
+  <div id="app">
+    <nav>
+      <div class="logo">
+        <h1><span class="highlight">Pro</span>Next</h1>
+      </div>
+      <div class="nav-links">
+        <a href="#" class="active">Ana Sayfa</a>
+        <a href="#">Yarışmalar</a>
+        <a href="#">Etkinlikler</a>
+        <a href="#">Mentorlar</a>
+        <a href="#">Topluluğum</a>
+      </div>
+      <div class="user-menu">
+        <button class="notification-btn">
+          <i class="fas fa-bell"></i>
+          <span class="badge">3</span>
+        </button>
+        <div class="user-profile">
+          <img src="/api/placeholder/40/40" alt="Profil" class="avatar" />
+          <span>Ali Yılmaz</span>
+          <i class="fas fa-chevron-down"></i>
+        </div>
+      </div>
+      <button class="mobile-menu-btn">
+        <i class="fas fa-bars"></i>
+      </button>
+    </nav>
+
+    <main>
+      <section class="hero" id="hero">
+        <div class="hero-content">
+          <h1>Potansiyelini Keşfet</h1>
+          <p>
+            İlgi alanlarına ve yeteneklerine uygun yarışmaları, bilimsel
+            etkinlikleri ve girişim fırsatlarını keşfet. Kariyer yolculuğunda
+            bir adım öne geç!
+          </p>
+          <div class="search-container">
+            <input
+              type="text"
+              placeholder="Yarışma, etkinlik veya anahtar kelime ara..."
+              class="search-input"
+            />
+            <button class="search-btn">
+              <i class="fas fa-search"></i> Ara
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section class="recommended-competitions" id="competitions">
+        <div class="section-header">
+          <h2>Senin İçin Önerilen Yarışmalar</h2>
+          <button class="see-all-btn">
+            Tümünü Gör <i class="fas fa-arrow-right"></i>
+          </button>
+        </div>
+        <div class="competitions-grid" id="recommended-competitions-container">
+          <!-- JavaScript ile doldurulacak -->
+        </div>
+      </section>
+
+      <section class="upcoming-deadlines" id="deadlines">
+        <div class="section-header">
+          <h2>Yaklaşan Son Başvuru Tarihleri</h2>
+          <button class="see-all-btn">
+            Takvimi Gör <i class="fas fa-arrow-right"></i>
+          </button>
+        </div>
+        <div class="deadlines-list" id="upcoming-deadlines-container">
+          <!-- JavaScript ile doldurulacak -->
+        </div>
+      </section>
+
+      <section class="mentors-section" id="mentors">
+        <div class="section-header">
+          <h2>Mentor Desteği</h2>
+          <button class="see-all-btn">
+            Tüm Mentorlar <i class="fas fa-arrow-right"></i>
+          </button>
+        </div>
+        <div class="mentors-grid" id="mentors-container">
+          <!-- JavaScript ile doldurulacak -->
+        </div>
+      </section>
+
+      <section class="community-section" id="community">
+        <div class="section-header">
+          <h2>Topluluk Aktiviteleri</h2>
+          <button class="see-all-btn">
+            Tüm Etkinlikler <i class="fas fa-arrow-right"></i>
+          </button>
+        </div>
+        <div class="community-posts" id="community-posts-container">
+          <!-- JavaScript ile doldurulacak -->
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3><span class="highlight">Pro</span>Next</h3>
+          <p>Öğrencileri doğru fırsatlarla buluşturan dijital platform</p>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+          </div>
+        </div>
+        <div class="footer-section">
+          <h3>Hızlı Bağlantılar</h3>
+          <ul>
+            <li><a href="#">Ana Sayfa</a></li>
+            <li><a href="#">Yarışmalar</a></li>
+            <li><a href="#">Etkinlikler</a></li>
+            <li><a href="#">Mentorlar</a></li>
+            <li><a href="#">Topluluğum</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h3>Kategoriler</h3>
+          <ul>
+            <li><a href="#">Yapay Zeka</a></li>
+            <li><a href="#">Girişimcilik</a></li>
+            <li><a href="#">Siber Güvenlik</a></li>
+            <li><a href="#">Mobil Uygulama</a></li>
+            <li><a href="#">Sürdürülebilirlik</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h3>İletişim</h3>
+          <ul class="contact-info">
+            <li><i class="fas fa-envelope"></i> iletisim@pronext.com</li>
+            <li><i class="fas fa-phone"></i> +90 (212) 123 4567</li>
+            <li><i class="fas fa-map-marker-alt"></i> İstanbul, Türkiye</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2025 ProNext. Tüm hakları saklıdır.</p>
+        <div class="footer-bottom-links">
+          <a href="#">Gizlilik Politikası</a>
+          <a href="#">Kullanım Koşulları</a>
+          <a href="#">KVKK</a>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <div class="notification-panel" id="notification-panel">
+    <div class="notification-header">
+      <h3>Bildirimler</h3>
+      <button class="close-btn"><i class="fas fa-times"></i></button>
+    </div>
+    <div class="notification-list" id="notification-list">
+      <!-- JavaScript ile doldurulacak -->
+    </div>
+    <div class="notification-footer">
+      <button class="mark-all-read-btn">Tümünü Okundu İşaretle</button>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
