@@ -23,12 +23,6 @@ GitHub Pages üzerinden çalışır:
     ```
 2. Tarayıcınızda `index.html` dosyasını açın.
 
-## 📷 Görseller
-
-| Ana Sayfa                | Yarışma Detayı               |
-|--------------------------|------------------------------|
-| ![Ana Sayfa](gorsel1.png) | ![Detay](gorsel2.png)        |
-
 ## ✨ Geliştirme Durumu
 
 - [x] Temel fonksiyonlar tamamlandı
@@ -44,8 +38,6 @@ GitHub Pages üzerinden çalışır:
 ## 📬 İletişim
 
 Proje hakkında daha fazla bilgi almak için:  
-📧 iletisim@pronext.com  
-🌐 [pronext.com](#)
-
+atagn905@gmail.com
 ---
 
